@@ -5,8 +5,21 @@ import pandas as pd
 import re
 
 url = 'http://35.247.175.241'
+today = (datetime.today() + timedelta(days=-1) ).strftime("%Y-%m-%d")
 
-print((datetime.today() + timedelta(days=-1) ).strftime("%Y-%m-%d %H:%M:%S"))
+def get_data_doxxorder(url, today):
+    token = authentication(url)
+    enpoint = '{}/index.php/rest/TH/V1/getOrders?date={}'.format(url, '2020-06-05')
+    header = {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer {}'.format(token),
+    }
+    test_get = requests.get(url=enpoint, headers=header, verify=False)
+    if test_get.status_code == 200:
+        jason_data = json.loads(test_get.text)
+        data = list(map(map_data, jason_data))
+        if data:
+            return data[0]
 
 def authentication(url):
     if url:
@@ -18,20 +31,6 @@ def authentication(url):
         response = requests.post(url=url, json=data)
         
         return response.text.replace('"', '')
-
-def get_data_doxxorder(url):
-    token = authentication(url)
-    # today = (datetime.today() + timedelta(days=-1) ).strftime("%Y-%m-%d")
-    enpoint = '{}/index.php/rest/TH/V1/getOrders?date={}'.format(url, '2020-06-05')
-    header = {
-        'Content-Type': 'application/json',
-        'Authorization': 'Bearer {}'.format(token),
-    }
-    test_get = requests.get(url=enpoint, headers=header, verify=False)
-    if test_get.status_code == 200:
-        jason_data = json.loads(test_get.text)
-        data = list(map(map_data, jason_data))
-        return data[0]
         
 def map_data(data):
     if data:
@@ -65,11 +64,25 @@ def map_data_items(data):
             })
         return data_dic
     
-def create_csv(url):
-    data = get_data_doxxorder(url)
-    
+def create_data_csv(url, today):
+    data = get_data_doxxorder(url, today)
     if data:
         csv_file = pd.DataFrame(data)
-        csv_file.to_csv('./test_data.csv', index=False)
-    
-create_csv(url)
+        csv_file.to_csv('./test_data_{}.csv'.format(str(today)), index=False)
+
+# create_data_csv(url, today)
+
+df = pd.read_csv('./test_data_{}.csv'.format(today), encoding='utf-8')
+df.to_json(
+    "data.json", 
+    orient = "records", 
+    date_format = "epoch", 
+    double_precision = 10, 
+    force_ascii = True, 
+    date_unit = "ms", 
+    default_handler = None
+)
+with open('./data.json') as json_file:
+    data = json.load(json_file)
+# data = json.loads(df.to_json())
+print(data)
