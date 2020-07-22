@@ -30,7 +30,6 @@ default_args = {
     "retry_delay": timedelta(minutes=2),
 }
 
-
 dag = DAG(
     "get_mongodb",
     default_args=default_args,
@@ -38,6 +37,7 @@ dag = DAG(
     schedule_interval="0/1 * * * *",
     catchup=False,
 )
+
 # def get_data_from_doxxorder(**kwargs):
 #     db_host = kwargs.get('db_host')
 #     db_user = kwargs.get('db_user')
@@ -62,30 +62,6 @@ dag = DAG(
 #         )
 #     print('Success!!!')
 
-def get_mongodb():
-    mongodb_test = MongoHook(conn_id='mongodb_id')
-    data = mongodb_test.find('order_item', {})
-    data = list(map(map_data, data))
-    mongodb_test.insert_many('order_item', data)
-    data = mongodb_test.find('order_item', {})
-    data = list(map(map_data, data))
-    print(data)
-    
-def map_data(data):
-    if data:
-        data_dic = {
-            'title': data['title'],
-            'first': data['first'],
-            'age': data['age']+1
-        }
-        return data_dic
-    
-t1 = PythonOperator(
-    task_id="get_mongodb", 
-    python_callable=get_mongodb,
-    dag=dag,
-)
-        
 # t1_get_data = PythonOperator(
 #     task_id="get_data_from_doxxorder", 
 #     python_callable=get_data_from_doxxorder,
@@ -113,6 +89,30 @@ t1 = PythonOperator(
 #         },
 #     dag=dag,
 # )
+
+def get_mongodb():
+    mongodb_test = MongoHook(conn_id='mongodb_id')
+    data = mongodb_test.find('order_item', {})
+    data = list(map(map_data, data))
+    mongodb_test.insert_many('order_item', data)
+    data = mongodb_test.find('order_item', {})
+    data = list(map(map_data, data))
+    print(data)
+    
+def map_data(data):
+    if data:
+        data_dic = {
+            'title': data['title'],
+            'first': data['first'],
+            'age': data['age']+1
+        }
+        return data_dic
+    
+t1 = PythonOperator(
+    task_id="get_mongodb", 
+    python_callable=get_mongodb,
+    dag=dag,
+)
 
 t1
 
