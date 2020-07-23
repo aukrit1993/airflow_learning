@@ -29,7 +29,7 @@ def get_data(url, authentication_url):
         }
     params = {
         "params":{
-            "date": "2020-07-20"
+            "date": "2020-07-21"
         }
     }
     respones = requests.post(url, headers=headers, data=json.dumps(params))
@@ -39,41 +39,12 @@ def get_data(url, authentication_url):
 def clean_data(url, authentication_url):
     data = get_data(url, authentication_url)
     if data:
-        data = list(map(map_variants, data))
         return data
-    
-def map_variants(data):
-    if data['variants']:
-        variants = data['variants']
-        for rec in range(0, len(variants)):
-            try:
-                key_data = list(variants[rec].keys())[0]
-                value_data = list(variants[rec].values())[0]
-                if key_data == 'MODEL':
-                    data.update({
-                        'product_name': value_data,
-                    })
-                elif key_data == 'COLOR':
-                    data.update({
-                        'color': value_data
-                    })
-                elif key_data == 'SIZE':
-                    data.update({
-                        'size': value_data
-                    })
-                elif key_data == 'FG TYPE':
-                    data.update({
-                        'category': value_data
-                    })
-            except:
-                pass
-        del data['variants']
-    else:
-        del data['variants']
-    return data
 
 data = clean_data(url, authentication_url)
 
 df = pd.DataFrame(data)
-df.sort_values(by=['product_name'], inplace=True)
-df.to_csv('test.csv', index=False)
+# df.to_csv('test.csv', index=False, encoding='utf-8')
+# df.to_excel('test_excel.xls', index=False, encoding='utf-8')
+df = pd.read_csv('test.csv')
+print(df)
