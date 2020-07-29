@@ -1,9 +1,9 @@
-import  pandas as pd
+# import  pandas as pd
 
-data = pd.read_csv('./test.csv')
-data.reset_index(inplace=False)
-data_dic = data.to_dict('record')
-print(data_dic)
+# data = pd.read_csv('./test.csv')
+# data.reset_index(inplace=False)
+# data_dic = data.to_dict('record')
+# print(data_dic)
 
 
 # from datetime import timedelta, datetime
@@ -53,3 +53,22 @@ print(data_dic)
 # )
 
 # t1
+
+# import requests
+
+# def authenticate_odoo(url):
+#     # url = kwargs.get('authentication_url', '')
+#     print(url)
+#     params = {
+#         "params":{
+#             "login":"nong.aukrit@rdbox.co",
+#             "password":"rd@1234",
+#             "db":"22_07_2020"
+#         }
+#     }
+#     print(params)
+#     respones = requests.post(url, json=params)
+#     print(respones.text)
+
+# authentication_url = 'http://localhost:8069/web/session/authenticate'
+# authenticate_odoo(authentication_url)

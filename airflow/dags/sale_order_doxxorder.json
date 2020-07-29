@@ -1,0 +1,5433 @@
+[
+    {
+        "customer_name": "C1-R-มิก  ชลบุรี",
+        "address": "โรบินสันบ่อวิน ห้องเลขที่ RBW-2F-SA-F13 ชั้นที่RBW-2F ตำบลบ่อวิน อำเภอศรีราชา จังหวัดชลบุรี 20230",
+        "age": "",
+        "amount": 30119.4,
+        "total_qty": 181.0,
+        "sale_date": "2020-07-22 07:44:52",
+        "sale_channel": "walk-in",
+        "dealer_name": "RDBOX",
+        "items": [
+            {
+                "product_name": "Diamond",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "TopDye",
+                "size": "S"
+            },
+            {
+                "product_name": "Diamond",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Nay",
+                "size": "S"
+            },
+            {
+                "product_name": "PL Champion",
+                "qty": 2.0,
+                "unit_price": 280.0,
+                "amount": 560.0,
+                "color": "TopBlk",
+                "size": "M",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "Diamond",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "DeepSea",
+                "size": "S"
+            },
+            {
+                "product_name": "LC Basic",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "TopBlk",
+                "size": "M",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "LC Basic",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "TopBlk",
+                "size": "L",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "R&D",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Red",
+                "size": "S"
+            },
+            {
+                "product_name": "LC Basic",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "TopDye",
+                "size": "L",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "LC Triangle",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "TopDye",
+                "size": "M",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "LC Basic",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "Pik",
+                "size": "LG",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "Nextdog",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "TopBlk",
+                "size": "L"
+            },
+            {
+                "product_name": "LC Basic",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "Red",
+                "size": "M",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "LC Basic",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "Blk",
+                "size": "M",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "LC Basic",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "Red",
+                "size": "L",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "LC Basic",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "Pik",
+                "size": "SG",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "LC Basic",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "Blk",
+                "size": "L",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "LC Basic",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "Pik",
+                "size": "MG",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "LcRomance-PikCha-S",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0
+            },
+            {
+                "product_name": "PL Pentagon",
+                "qty": 1.0,
+                "unit_price": 300.0,
+                "amount": 300.0,
+                "color": "Blk",
+                "size": "XL",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "PL Pixel",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "color": "Yell",
+                "size": "LG",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "PL Pixel",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "color": "Yell",
+                "size": "MG",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "LC Champion",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "R&D",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Red",
+                "size": "SG"
+            },
+            {
+                "product_name": "Diamond",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Red",
+                "size": "SG"
+            },
+            {
+                "product_name": "LC Robin",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "DeepSea",
+                "size": "S"
+            },
+            {
+                "product_name": "LC Robin",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Nay",
+                "size": "S"
+            },
+            {
+                "product_name": "PL Pentagon",
+                "qty": 2.0,
+                "unit_price": 280.0,
+                "amount": 560.0,
+                "color": "Blk",
+                "size": "M",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "LC Triangle",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "DeepSea",
+                "size": "S",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "LC Triangle",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "Nay",
+                "size": "S",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "PL Champion",
+                "qty": 2.0,
+                "unit_price": 280.0,
+                "amount": 560.0,
+                "color": "Blu",
+                "size": "M",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "PL Champion",
+                "qty": 2.0,
+                "unit_price": 280.0,
+                "amount": 560.0,
+                "color": "Nay",
+                "size": "M",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "PL Pentagon",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "color": "Red",
+                "size": "M",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "PL Pixel",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "color": "Red",
+                "size": "M",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "PL Pentagon",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "color": "Yell",
+                "size": "M",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "PL Pixel",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "color": "Yell",
+                "size": "SG",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "PL Superdog",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "color": "Yell",
+                "size": "S",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "Diamond",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "TopBlk",
+                "size": "S"
+            },
+            {
+                "product_name": "LC Basic",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "DeepSea",
+                "size": "L",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "PL Superdog",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "color": "Whi",
+                "size": "M",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "PL Champion",
+                "qty": 2.0,
+                "unit_price": 280.0,
+                "amount": 560.0,
+                "color": "DeepSea",
+                "size": "M",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "R&D",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "TopBlk",
+                "size": "S"
+            },
+            {
+                "product_name": "Chain",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Pik",
+                "size": "SG"
+            },
+            {
+                "product_name": "Chain",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Pik",
+                "size": "MG"
+            },
+            {
+                "product_name": "Chain",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Red",
+                "size": "SG"
+            },
+            {
+                "product_name": "Chain",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Red",
+                "size": "MG"
+            },
+            {
+                "product_name": "Chain",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Red",
+                "size": "LG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Ama",
+                "size": "LG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Ama",
+                "size": "MG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Ama",
+                "size": "SG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "SG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "MG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "LG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Sha",
+                "size": "SG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Sha",
+                "size": "MG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Sha",
+                "size": "LG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Mid",
+                "size": "SG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Mid",
+                "size": "MG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Mid",
+                "size": "LG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "SG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "MG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "LG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 3.0,
+                "unit_price": 180.0,
+                "amount": 540.0,
+                "category": "FG-TV",
+                "color": "Ama",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 220.0,
+                "amount": 440.0,
+                "category": "FG-TV",
+                "color": "Ama",
+                "size": "XL"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 3.0,
+                "unit_price": 180.0,
+                "amount": 540.0,
+                "category": "FG-TV",
+                "color": "Ama",
+                "size": "M"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Ama",
+                "size": "S"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 220.0,
+                "amount": 440.0,
+                "category": "FG-TV",
+                "color": "Sha",
+                "size": "XL"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Sha",
+                "size": "S"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 3.0,
+                "unit_price": 180.0,
+                "amount": 540.0,
+                "category": "FG-TV",
+                "color": "Sha",
+                "size": "M"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 3.0,
+                "unit_price": 180.0,
+                "amount": 540.0,
+                "category": "FG-TV",
+                "color": "Sha",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Mid",
+                "size": "S"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 3.0,
+                "unit_price": 180.0,
+                "amount": 540.0,
+                "category": "FG-TV",
+                "color": "Mid",
+                "size": "M"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 3.0,
+                "unit_price": 180.0,
+                "amount": 540.0,
+                "category": "FG-TV",
+                "color": "Mid",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 220.0,
+                "amount": 440.0,
+                "category": "FG-TV",
+                "color": "Mid",
+                "size": "XL"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 3.0,
+                "unit_price": 180.0,
+                "amount": 540.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 3.0,
+                "unit_price": 180.0,
+                "amount": 540.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "M"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 220.0,
+                "amount": 440.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "XL"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 3.0,
+                "unit_price": 180.0,
+                "amount": 540.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "S"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 220.0,
+                "amount": 440.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "XL"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "S"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 3.0,
+                "unit_price": 180.0,
+                "amount": 540.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "M"
+            },
+            {
+                "product_name": "RdMask-Captain-Blk",
+                "qty": 50.0,
+                "unit_price": 55.0,
+                "amount": 2750.0
+            },
+            {
+                "product_name": "ค่าจัดส่งฟรี-SCG",
+                "qty": 1.0,
+                "unit_price": 0.0,
+                "amount": 0.0
+            }
+        ]
+    },
+    {
+        "customer_name": "D1-R-วัฒน์  บางแค",
+        "address": "ตลาดศูนย์การค้าบางแค ถ.เพชรเกษม แขวงบางแค เขตบางแค กรุงเทพมหานคร 10160",
+        "age": "",
+        "amount": 8190.0,
+        "total_qty": 44.0,
+        "sale_date": "2020-07-22 07:01:38",
+        "sale_channel": "walk-in",
+        "dealer_name": "RDBOX",
+        "items": [
+            {
+                "product_name": "MorSai2020",
+                "qty": 1.0,
+                "unit_price": 210.0,
+                "amount": 210.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "XL"
+            },
+            {
+                "product_name": "Rushbar",
+                "qty": 1.0,
+                "unit_price": 170.0,
+                "amount": 170.0,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "S"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 1.0,
+                "unit_price": 170.0,
+                "amount": 170.0,
+                "color": "DarkGray",
+                "size": "S",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 1.0,
+                "unit_price": 170.0,
+                "amount": 170.0,
+                "color": "Blu",
+                "size": "S",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 1.0,
+                "unit_price": 170.0,
+                "amount": 170.0,
+                "color": "TopBlk",
+                "size": "S",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 1.0,
+                "unit_price": 210.0,
+                "amount": 210.0,
+                "color": "TopDye",
+                "size": "XL",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Boxing",
+                "qty": 1.0,
+                "unit_price": 210.0,
+                "amount": 210.0,
+                "category": "FG-TS",
+                "color": "Ocean",
+                "size": "XL"
+            },
+            {
+                "product_name": "Boxing",
+                "qty": 1.0,
+                "unit_price": 170.0,
+                "amount": 170.0,
+                "category": "FG-TS",
+                "color": "Ocean",
+                "size": "L"
+            },
+            {
+                "product_name": "Boxing",
+                "qty": 1.0,
+                "unit_price": 210.0,
+                "amount": 210.0,
+                "category": "FG-TS",
+                "color": "Yell",
+                "size": "XL"
+            },
+            {
+                "product_name": "Boxing",
+                "qty": 1.0,
+                "unit_price": 170.0,
+                "amount": 170.0,
+                "category": "FG-TS",
+                "color": "TopBlk",
+                "size": "L"
+            },
+            {
+                "product_name": "newbig",
+                "qty": 1.0,
+                "unit_price": 170.0,
+                "amount": 170.0,
+                "color": "TopBlk",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "newbig",
+                "qty": 1.0,
+                "unit_price": 210.0,
+                "amount": 210.0,
+                "color": "TopBlk",
+                "size": "XL",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 1.0,
+                "unit_price": 170.0,
+                "amount": 170.0,
+                "color": "TopBlk",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 1.0,
+                "unit_price": 210.0,
+                "amount": 210.0,
+                "color": "TopBlk",
+                "size": "XL",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "United",
+                "qty": 1.0,
+                "unit_price": 170.0,
+                "amount": 170.0,
+                "color": "Yell",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "United",
+                "qty": 1.0,
+                "unit_price": 170.0,
+                "amount": 170.0,
+                "color": "Yell",
+                "size": "S",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "United",
+                "qty": 1.0,
+                "unit_price": 210.0,
+                "amount": 210.0,
+                "color": "Yell",
+                "size": "XL",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "United",
+                "qty": 1.0,
+                "unit_price": 170.0,
+                "amount": 170.0,
+                "color": "TopBlk",
+                "size": "S",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "United",
+                "qty": 1.0,
+                "unit_price": 210.0,
+                "amount": 210.0,
+                "color": "TopBlk",
+                "size": "XL",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "United",
+                "qty": 1.0,
+                "unit_price": 170.0,
+                "amount": 170.0,
+                "color": "Blk",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Rushbar",
+                "qty": 1.0,
+                "unit_price": 170.0,
+                "amount": 170.0,
+                "category": "FG-TS",
+                "color": "Cha",
+                "size": "L"
+            },
+            {
+                "product_name": "Rushbar",
+                "qty": 1.0,
+                "unit_price": 210.0,
+                "amount": 210.0,
+                "category": "FG-TS",
+                "color": "Cha",
+                "size": "XL"
+            },
+            {
+                "product_name": "Rushbar",
+                "qty": 1.0,
+                "unit_price": 170.0,
+                "amount": 170.0,
+                "category": "FG-TS",
+                "color": "Cha",
+                "size": "S"
+            },
+            {
+                "product_name": "Logo2018",
+                "qty": 1.0,
+                "unit_price": 170.0,
+                "amount": 170.0,
+                "color": "DeepSea",
+                "size": "S",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Logo2018",
+                "qty": 1.0,
+                "unit_price": 210.0,
+                "amount": 210.0,
+                "color": "DeepSea",
+                "size": "XL",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "MB-HighAndSeek",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Gry",
+                "size": "L"
+            },
+            {
+                "product_name": "MB-HighAndSeek",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "MB-HighAndSeek",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "M"
+            },
+            {
+                "product_name": "MB-HighAndSeek",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "XL"
+            },
+            {
+                "product_name": "MB-HighAndSeek",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Gry",
+                "size": "XL"
+            },
+            {
+                "product_name": "MB-HighAndSeek",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "L"
+            },
+            {
+                "product_name": "MB-HighAndSeek",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Grn",
+                "size": "M"
+            },
+            {
+                "product_name": "MB-HighAndSeek",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Grn",
+                "size": "L"
+            },
+            {
+                "product_name": "Hawaiian-Nay-S",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 220.0,
+                "amount": 220.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "XL"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 220.0,
+                "amount": 220.0,
+                "category": "FG-TV",
+                "color": "Sha",
+                "size": "XL"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 220.0,
+                "amount": 220.0,
+                "category": "FG-TV",
+                "color": "Ama",
+                "size": "XL"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 220.0,
+                "amount": 220.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "XL"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Ama",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Sha",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Mid",
+                "size": "L"
+            },
+            {
+                "product_name": "MB-HighAndSeek",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Gry",
+                "size": "M"
+            },
+            {
+                "product_name": "ค่าจัดส่งฟรี-SCG",
+                "qty": 1.0,
+                "unit_price": 0.0,
+                "amount": 0.0
+            }
+        ]
+    },
+    {
+        "customer_name": "B1-RS-R-บริษัท ลินินสไตล์ จำกัด-สาขา1",
+        "address": "เลขที่  288/67  ถนนสุขาภิบาล 5   แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220",
+        "age": "",
+        "amount": 44528.2,
+        "total_qty": 233.0,
+        "sale_date": "2020-07-22 06:07:16",
+        "sale_channel": "walk-in",
+        "dealer_name": "RDBOX",
+        "items": [
+            {
+                "product_name": "PL Pixel",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "color": "Red",
+                "size": "M",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "Minifalcon",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "DeepSea",
+                "size": "MG"
+            },
+            {
+                "product_name": "PL Runaway",
+                "qty": 2.0,
+                "unit_price": 280.0,
+                "amount": 560.0,
+                "color": "Blk",
+                "size": "M",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "F1",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "TopBlk",
+                "size": "M"
+            },
+            {
+                "product_name": "LC Robin",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "TopDye",
+                "size": "L"
+            },
+            {
+                "product_name": "Nextdog",
+                "qty": 2.0,
+                "unit_price": 240.0,
+                "amount": 480.0,
+                "category": "FG-LC",
+                "color": "TopDye",
+                "size": "L"
+            },
+            {
+                "product_name": "F1",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "TopDye",
+                "size": "M"
+            },
+            {
+                "product_name": "Chillday",
+                "qty": 2.0,
+                "unit_price": 260.0,
+                "amount": 520.0,
+                "category": "FG-HD",
+                "color": "Red",
+                "size": "34"
+            },
+            {
+                "product_name": "Aloha-Nay-XL",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0
+            },
+            {
+                "product_name": "PL Pentagon",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "color": "Red",
+                "size": "M",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "PL Superdog",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "color": "Blk",
+                "size": "M",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "Falcon",
+                "qty": 2.0,
+                "unit_price": 240.0,
+                "amount": 480.0,
+                "category": "FG-LC",
+                "color": "Nay",
+                "size": "M"
+            },
+            {
+                "product_name": "Falcon",
+                "qty": 2.0,
+                "unit_price": 240.0,
+                "amount": 480.0,
+                "category": "FG-LC",
+                "color": "Nay",
+                "size": "S"
+            },
+            {
+                "product_name": "Falcon",
+                "qty": 2.0,
+                "unit_price": 240.0,
+                "amount": 480.0,
+                "category": "FG-LC",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "Minifalcon",
+                "qty": 2.0,
+                "unit_price": 280.0,
+                "amount": 560.0,
+                "category": "FG-PL",
+                "color": "Blu",
+                "size": "M"
+            },
+            {
+                "product_name": "Minisuper",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "Blu",
+                "size": "LG"
+            },
+            {
+                "product_name": "LC Champion",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "LC Turbo",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "TopDye",
+                "size": "S"
+            },
+            {
+                "product_name": "LC Turbo",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "TopDye",
+                "size": "L"
+            },
+            {
+                "product_name": "LC Robin",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "TopDye",
+                "size": "S"
+            },
+            {
+                "product_name": "R&D",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Nay",
+                "size": "S"
+            },
+            {
+                "product_name": "R&D",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Nay",
+                "size": "M"
+            },
+            {
+                "product_name": "Minifalcon",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "DeepSea",
+                "size": "LG"
+            },
+            {
+                "product_name": "PL Pixel",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "color": "Blk",
+                "size": "LG",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "PL Pentagon",
+                "qty": 1.0,
+                "unit_price": 300.0,
+                "amount": 300.0,
+                "color": "Blk",
+                "size": "XL",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "Minifalcon",
+                "qty": 2.0,
+                "unit_price": 300.0,
+                "amount": 600.0,
+                "category": "FG-PL",
+                "color": "Blu",
+                "size": "XL"
+            },
+            {
+                "product_name": "Nextdog",
+                "qty": 3.0,
+                "unit_price": 240.0,
+                "amount": 720.0,
+                "category": "FG-LC",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "LC Basic",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "Nay",
+                "size": "L",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "R&D",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "TopDye",
+                "size": "L"
+            },
+            {
+                "product_name": "R&D",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "TopDye",
+                "size": "M"
+            },
+            {
+                "product_name": "Minifalcon",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "Whi",
+                "size": "LG"
+            },
+            {
+                "product_name": "F1",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "TopBlk",
+                "size": "L"
+            },
+            {
+                "product_name": "Minifalcon",
+                "qty": 1.0,
+                "unit_price": 300.0,
+                "amount": 300.0,
+                "category": "FG-PL",
+                "color": "Red",
+                "size": "XL"
+            },
+            {
+                "product_name": "Minifalcon",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "DeepSea",
+                "size": "SG"
+            },
+            {
+                "product_name": "Minifalcon",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "Blu",
+                "size": "MG"
+            },
+            {
+                "product_name": "Minifalcon",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "Whi",
+                "size": "SG"
+            },
+            {
+                "product_name": "Minifalcon",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "Blk",
+                "size": "LG"
+            },
+            {
+                "product_name": "Nextdog",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Nay",
+                "size": "M"
+            },
+            {
+                "product_name": "Nextdog",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Nay",
+                "size": "S"
+            },
+            {
+                "product_name": "LC Champion",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "TopDye",
+                "size": "L",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "Diamond",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "TopDye",
+                "size": "L"
+            },
+            {
+                "product_name": "Minifalcon",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "Red",
+                "size": "MG"
+            },
+            {
+                "product_name": "Minifalcon",
+                "qty": 2.0,
+                "unit_price": 280.0,
+                "amount": 560.0,
+                "category": "FG-PL",
+                "color": "Blu",
+                "size": "L"
+            },
+            {
+                "product_name": "Nextdog",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-LC",
+                "color": "Nay",
+                "size": "XL"
+            },
+            {
+                "product_name": "Newbox",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "Pik",
+                "size": "LG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Newbox",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "Pik",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "Nay",
+                "size": "S",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 5.0,
+                "unit_price": 164.9,
+                "amount": 824.5,
+                "color": "Nay",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "newbig",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Nay",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "newbig",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Nay",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "newbig",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Nay",
+                "size": "SG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "DarkGray",
+                "size": "LG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "DarkGray",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "DarkGray",
+                "size": "SG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Minisuper",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "TopBlk",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Minisuper",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "TopBlk",
+                "size": "SG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Minisuper",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Yell",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Minisuper",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Yell",
+                "size": "SG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Triangle",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "TopDye",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Triangle",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "TopDye",
+                "size": "SG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "TopDye",
+                "size": "SG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "TopDye",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "ESTpoint",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "TopDye",
+                "size": "MG"
+            },
+            {
+                "product_name": "ESTpoint",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "TopDye",
+                "size": "SG"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "Nay",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Nay",
+                "size": "SG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 1.0,
+                "unit_price": 203.7,
+                "amount": 203.7,
+                "color": "Nay",
+                "size": "XL",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Bighead",
+                "qty": 1.0,
+                "unit_price": 203.7,
+                "amount": 203.7,
+                "category": "FG-TS",
+                "color": "Yell",
+                "size": "XL"
+            },
+            {
+                "product_name": "R&D",
+                "qty": 1.0,
+                "unit_price": 203.7,
+                "amount": 203.7,
+                "category": "FG-TS",
+                "color": "TopBlk",
+                "size": "XL"
+            },
+            {
+                "product_name": "Newsuperdog",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "Pik",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Newsuperdog",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "Pik",
+                "size": "SG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Newbox",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "Pik",
+                "size": "SG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Logo2018",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "TopDye",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Logo2018",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "TopDye",
+                "size": "SG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "Red",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Rushbar",
+                "qty": 1.0,
+                "unit_price": 203.7,
+                "amount": 203.7,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "XL"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Yell",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Yell",
+                "size": "SG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Squarerude",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Red",
+                "size": "L"
+            },
+            {
+                "product_name": "Bighead",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Pik",
+                "size": "LG"
+            },
+            {
+                "product_name": "Bighead",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Pik",
+                "size": "MG"
+            },
+            {
+                "product_name": "Bighead",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Pik",
+                "size": "SG"
+            },
+            {
+                "product_name": "R&D",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Red",
+                "size": "LG"
+            },
+            {
+                "product_name": "MorSai2020",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Grn",
+                "size": "SG"
+            },
+            {
+                "product_name": "MorSai2020",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Grn",
+                "size": "LG"
+            },
+            {
+                "product_name": "MorSai2020",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "DeepSea",
+                "size": "LG"
+            },
+            {
+                "product_name": "MorSai2020",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "DeepSea",
+                "size": "MG"
+            },
+            {
+                "product_name": "MorSai2020",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "DeepSea",
+                "size": "SG"
+            },
+            {
+                "product_name": "Highway",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "SG"
+            },
+            {
+                "product_name": "Highway",
+                "qty": 4.0,
+                "unit_price": 164.9,
+                "amount": 659.6,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "Highway",
+                "qty": 2.0,
+                "unit_price": 203.7,
+                "amount": 407.4,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "XL"
+            },
+            {
+                "product_name": "United",
+                "qty": 4.0,
+                "unit_price": 203.7,
+                "amount": 814.8,
+                "color": "Nay",
+                "size": "XL",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "United",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "Nay",
+                "size": "M",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "United",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "Nay",
+                "size": "LG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "United",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "Whi",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Squarerude",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Pik",
+                "size": "LG"
+            },
+            {
+                "product_name": "Squarerude",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Pik",
+                "size": "SG"
+            },
+            {
+                "product_name": "Squarerude",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "category": "FG-TS",
+                "color": "Pik",
+                "size": "MG"
+            },
+            {
+                "product_name": "Newsuperdog",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Pik",
+                "size": "LG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Squarerude",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "TopBlk",
+                "size": "LG"
+            },
+            {
+                "product_name": "United",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Nay",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Chain",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "LG"
+            },
+            {
+                "product_name": "Newsuperdog",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Red",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Newsuperdog",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Nay",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Newsuperdog",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "category": "FG-TS",
+                "color": "Red",
+                "size": "L"
+            },
+            {
+                "product_name": "Logo2018",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Red",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "United",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "Blk",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Area81",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Red",
+                "size": "MG"
+            },
+            {
+                "product_name": "R&D",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "MG"
+            },
+            {
+                "product_name": "R&D",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "SG"
+            },
+            {
+                "product_name": "Bighead",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "MG"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Red",
+                "size": "SG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Red",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "ESTpoint",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Red",
+                "size": "SG"
+            },
+            {
+                "product_name": "ESTpoint",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Red",
+                "size": "MG"
+            },
+            {
+                "product_name": "Newsuperdog",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Red",
+                "size": "SG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Chain",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "L"
+            },
+            {
+                "product_name": "Chain",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "MG"
+            },
+            {
+                "product_name": "Newbox",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Whi",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Newbox",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "Whi",
+                "size": "M",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Triangle",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "Nay",
+                "size": "LG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Triangle",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "Nay",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Squarerude",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "TopBlk",
+                "size": "MG"
+            },
+            {
+                "product_name": "Squarerude",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Grn",
+                "size": "SG"
+            },
+            {
+                "product_name": "R&D",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "category": "FG-TS",
+                "color": "Ocean",
+                "size": "L"
+            },
+            {
+                "product_name": "Chain",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "MG"
+            },
+            {
+                "product_name": "Chain",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "M"
+            },
+            {
+                "product_name": "Hanger",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Whi",
+                "size": "LG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Hanger",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Whi",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Bighead",
+                "qty": 3.0,
+                "unit_price": 164.9,
+                "amount": 494.7,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "M"
+            },
+            {
+                "product_name": "Highway",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "LG"
+            },
+            {
+                "product_name": "Highway",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "MG"
+            },
+            {
+                "product_name": "Indian",
+                "qty": 3.0,
+                "unit_price": 164.9,
+                "amount": 494.7,
+                "color": "Nay",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Triangle",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "DeepSea",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Triangle",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "DeepSea",
+                "size": "SG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "MorSai2020",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "TopDye",
+                "size": "SG"
+            },
+            {
+                "product_name": "MorSai2020",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "category": "FG-TS",
+                "color": "TopDye",
+                "size": "MG"
+            },
+            {
+                "product_name": "Bighead",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "LG"
+            },
+            {
+                "product_name": "Bighead",
+                "qty": 2.0,
+                "unit_price": 203.7,
+                "amount": 407.4,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "XL"
+            },
+            {
+                "product_name": "MorSai2020",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "M"
+            },
+            {
+                "product_name": "Bighead",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "M"
+            },
+            {
+                "product_name": "Bighead",
+                "qty": 1.0,
+                "unit_price": 203.7,
+                "amount": 203.7,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "XL"
+            },
+            {
+                "product_name": "Bighead",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "M"
+            },
+            {
+                "product_name": "Logo2018",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "DeepSea",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Logo2018",
+                "qty": 1.0,
+                "unit_price": 203.7,
+                "amount": 203.7,
+                "color": "Nay",
+                "size": "XL",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Logo2018",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "Nay",
+                "size": "LG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Logo2018",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "DeepSea",
+                "size": "SG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "Nay",
+                "size": "LG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Logo2018",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Red",
+                "size": "SG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Chain",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "M"
+            },
+            {
+                "product_name": "R&D",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Red",
+                "size": "SG"
+            },
+            {
+                "product_name": "R&D",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Red",
+                "size": "MG"
+            },
+            {
+                "product_name": "MorSai2020",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "SG"
+            },
+            {
+                "product_name": "MorSai2020",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "MG"
+            },
+            {
+                "product_name": "MorSai2020",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "LG"
+            },
+            {
+                "product_name": "Newbox",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Whi",
+                "size": "SG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Newbox",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Whi",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Newbox",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Whi",
+                "size": "LG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Minisuper",
+                "qty": 1.0,
+                "unit_price": 203.7,
+                "amount": 203.7,
+                "color": "Nay",
+                "size": "XL",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Hanger",
+                "qty": 1.0,
+                "unit_price": 203.7,
+                "amount": 203.7,
+                "color": "Nay",
+                "size": "XL",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Boxing",
+                "qty": 2.0,
+                "unit_price": 203.7,
+                "amount": 407.4,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "XL"
+            },
+            {
+                "product_name": "Boxing",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "LG"
+            },
+            {
+                "product_name": "Boxing",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "Boxing",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "MG"
+            },
+            {
+                "product_name": "MorSai2020",
+                "qty": 2.0,
+                "unit_price": 203.7,
+                "amount": 407.4,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "XL"
+            },
+            {
+                "product_name": "United",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "Whi",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Bighead",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "SG"
+            },
+            {
+                "product_name": "Bighead",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "MG"
+            },
+            {
+                "product_name": "Bighead",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "LG"
+            },
+            {
+                "product_name": "Highway",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "M"
+            },
+            {
+                "product_name": "Basic",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "MG"
+            },
+            {
+                "product_name": "ค่าจัดส่งฟรี-SCG",
+                "qty": 1.0,
+                "unit_price": 0.0,
+                "amount": 0.0
+            }
+        ]
+    },
+    {
+        "customer_name": "D1-R-พี่ออโต้  ชลบุรี",
+        "address": "เลขที่  24/1  ซ.ข้างเทศบาล  ถ.เมืองเก่า   ตำบลพนัสนิคม อำเภอพนัสนิคม จังหวัดชลบุรี 20140",
+        "age": "",
+        "amount": 6720.0,
+        "total_qty": 34.0,
+        "sale_date": "2020-07-22 07:44:24",
+        "sale_channel": "doxxorder_Thai",
+        "dealer_name": "RDBOX",
+        "items": [
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Ama",
+                "size": "M"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Ama",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 220.0,
+                "amount": 440.0,
+                "category": "FG-TV",
+                "color": "Ama",
+                "size": "XL"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "S"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "M"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 220.0,
+                "amount": 440.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "XL"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Mid",
+                "size": "S"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Mid",
+                "size": "M"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Mid",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 220.0,
+                "amount": 440.0,
+                "category": "FG-TV",
+                "color": "Mid",
+                "size": "XL"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "S"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "M"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 220.0,
+                "amount": 440.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "XL"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Sha",
+                "size": "S"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Sha",
+                "size": "M"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Sha",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 220.0,
+                "amount": 440.0,
+                "category": "FG-TV",
+                "color": "Sha",
+                "size": "XL"
+            },
+            {
+                "product_name": "ค่าส่งเหมาจ่าย-200(SCG)",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0
+            }
+        ]
+    },
+    {
+        "customer_name": "B1-RS-R-ใหญ่  ลพบุรี",
+        "address": "BIG C (สาขา ลพบุรี) ตำบลท่าศาลา อำเภอเมืองลพบุรี จังหวัดลพบุรี 15000",
+        "age": "",
+        "amount": 780.0,
+        "total_qty": 3.0,
+        "sale_date": "2020-07-22 05:08:25",
+        "sale_channel": "walk-in",
+        "dealer_name": "RDBOX",
+        "items": [
+            {
+                "product_name": "LC Turbo",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "TopBlk",
+                "size": "L"
+            },
+            {
+                "product_name": "LC Turbo",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "Minifalcon",
+                "qty": 1.0,
+                "unit_price": 300.0,
+                "amount": 300.0,
+                "category": "FG-PL",
+                "color": "Blk",
+                "size": "XL"
+            },
+            {
+                "product_name": "ค่าจัดส่งฟรี-SCG",
+                "qty": 1.0,
+                "unit_price": 0.0,
+                "amount": 0.0
+            }
+        ]
+    },
+    {
+        "customer_name": "B1-RS-R-ใหญ่  ลพบุรี",
+        "address": "BIG C (สาขา ลพบุรี) ตำบลท่าศาลา อำเภอเมืองลพบุรี จังหวัดลพบุรี 15000",
+        "age": "",
+        "amount": 28795.5,
+        "total_qty": 176.0,
+        "sale_date": "2020-07-22 05:02:20",
+        "sale_channel": "walk-in",
+        "dealer_name": "RDBOX",
+        "items": [
+            {
+                "product_name": "Triangle",
+                "qty": 1.0,
+                "unit_price": 199.5,
+                "amount": 199.5,
+                "color": "TopBlk",
+                "size": "XL",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Minisuper",
+                "qty": 1.0,
+                "unit_price": 199.5,
+                "amount": 199.5,
+                "color": "Blk",
+                "size": "XL",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Bighead",
+                "qty": 1.0,
+                "unit_price": 199.5,
+                "amount": 199.5,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "XL"
+            },
+            {
+                "product_name": "Bighead",
+                "qty": 1.0,
+                "unit_price": 199.5,
+                "amount": 199.5,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "XL"
+            },
+            {
+                "product_name": "Triangle",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Whi",
+                "size": "M",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "newbig",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Nay",
+                "size": "M",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Newbox",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Yell",
+                "size": "M",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Newbox",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Whi",
+                "size": "M",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Newbox",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Blk",
+                "size": "M",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "MorSai2020",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "M"
+            },
+            {
+                "product_name": "Triangle",
+                "qty": 1.0,
+                "unit_price": 199.5,
+                "amount": 199.5,
+                "color": "TopDye",
+                "size": "XL",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Triangle",
+                "qty": 1.0,
+                "unit_price": 199.5,
+                "amount": 199.5,
+                "color": "Blk",
+                "size": "XL",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "United",
+                "qty": 1.0,
+                "unit_price": 199.5,
+                "amount": 199.5,
+                "color": "Nay",
+                "size": "XL",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "SD-Kanto",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "S"
+            },
+            {
+                "product_name": "SD-Kanto",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Yell",
+                "size": "S"
+            },
+            {
+                "product_name": "GodMoney-Blk-S",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0
+            },
+            {
+                "product_name": "Boxing",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "L"
+            },
+            {
+                "product_name": "Boxing",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "category": "FG-TS",
+                "color": "Yell",
+                "size": "L"
+            },
+            {
+                "product_name": "Rushbar",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "category": "FG-TS",
+                "color": "Cha",
+                "size": "L"
+            },
+            {
+                "product_name": "Bighead",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "category": "FG-TS",
+                "color": "TopDye",
+                "size": "L"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Yell",
+                "size": "LG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Pik",
+                "size": "LG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Logo2018",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Whi",
+                "size": "LG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Logo2018",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Nay",
+                "size": "LG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Rushbar",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "category": "FG-TS",
+                "color": "Yell",
+                "size": "LG"
+            },
+            {
+                "product_name": "SD-Kanto",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "TopDye",
+                "size": "S"
+            },
+            {
+                "product_name": "SD Nakano",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "color": "Blk",
+                "size": "S"
+            },
+            {
+                "product_name": "SD-Kanto",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Red",
+                "size": "S"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Yell",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Pik",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Logo2018",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Whi",
+                "size": "MG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Rushbar",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "category": "FG-TS",
+                "color": "Yell",
+                "size": "MG"
+            },
+            {
+                "product_name": "newbig",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Nay",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Boxing",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "Area81",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "category": "FG-TS",
+                "color": "Ocean",
+                "size": "L"
+            },
+            {
+                "product_name": "Area81",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "L"
+            },
+            {
+                "product_name": "Bighead",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "M"
+            },
+            {
+                "product_name": "United",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Whi",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "United",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Blk",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Minisuper",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Yell",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Minisuper",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Red",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Minisuper",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Blk",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Minisuper",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Whi",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Logo2018",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Whi",
+                "size": "SG",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 220.0,
+                "amount": 440.0,
+                "category": "FG-TV",
+                "color": "Mid",
+                "size": "XL"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 220.0,
+                "amount": 440.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "XL"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 220.0,
+                "amount": 440.0,
+                "category": "FG-TV",
+                "color": "Sha",
+                "size": "XL"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "SG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Sha",
+                "size": "SG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "SG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Ama",
+                "size": "SG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Mid",
+                "size": "LG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "LG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Sha",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Ama",
+                "size": "M"
+            },
+            {
+                "product_name": "Nextdog",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Red",
+                "size": "MG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Mid",
+                "size": "M"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Ama",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Sha",
+                "size": "LG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "LG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Ama",
+                "size": "LG"
+            },
+            {
+                "product_name": "LC Champion",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Red",
+                "size": "SG"
+            },
+            {
+                "product_name": "LC Triangle",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "TopBlk",
+                "size": "MG",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "LC Triangle",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "Nay",
+                "size": "MG",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "Newbox",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Whi",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Newbox",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Yell",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Newbox",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "Blk",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "MorSai2020",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "L"
+            },
+            {
+                "product_name": "Triangle",
+                "qty": 1.0,
+                "unit_price": 161.5,
+                "amount": 161.5,
+                "color": "TopDye",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 220.0,
+                "amount": 440.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "XL"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 220.0,
+                "amount": 440.0,
+                "category": "FG-TV",
+                "color": "Ama",
+                "size": "XL"
+            },
+            {
+                "product_name": "LC Turbo",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-LC",
+                "color": "Nay",
+                "size": "XL"
+            },
+            {
+                "product_name": "LC Champion",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "TopBlk",
+                "size": "MG",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "Stun",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Red",
+                "size": "LG"
+            },
+            {
+                "product_name": "LC Champion",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Red",
+                "size": "LG"
+            },
+            {
+                "product_name": "LC Basic",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "Nay",
+                "size": "M",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "Minifalcon",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "Yell",
+                "size": "MG"
+            },
+            {
+                "product_name": "F1",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "Cha",
+                "size": "S"
+            },
+            {
+                "product_name": "Minifalcon",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "Yell",
+                "size": "S"
+            },
+            {
+                "product_name": "PL Louis",
+                "qty": 1.0,
+                "unit_price": 300.0,
+                "amount": 300.0,
+                "category": "FG-PL",
+                "color": "Nay",
+                "size": "XL"
+            },
+            {
+                "product_name": "Stun",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Red",
+                "size": "L"
+            },
+            {
+                "product_name": "Nextdog",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "Nextdog",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Whi",
+                "size": "L"
+            },
+            {
+                "product_name": "LC Basic",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "Red",
+                "size": "L",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "LC Basic",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "Nay",
+                "size": "L",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Sha",
+                "size": "M"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "M"
+            },
+            {
+                "product_name": "F1",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "Blk",
+                "size": "L"
+            },
+            {
+                "product_name": "F1",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Mid",
+                "size": "MG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Mid",
+                "size": "SG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "MG"
+            },
+            {
+                "product_name": "LC Champion",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Whi",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Sha",
+                "size": "MG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "MG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Ama",
+                "size": "MG"
+            },
+            {
+                "product_name": "F1",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "Nay",
+                "size": "S"
+            },
+            {
+                "product_name": "LC Champion",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Red",
+                "size": "L"
+            },
+            {
+                "product_name": "Stun",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "TopDye",
+                "size": "L"
+            },
+            {
+                "product_name": "LC Robin",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "TopDye",
+                "size": "L"
+            },
+            {
+                "product_name": "Nextdog",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "TopBlk",
+                "size": "L"
+            },
+            {
+                "product_name": "LC Basic",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "TopBlk",
+                "size": "L",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "PL Louis",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "F1",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "TopBlk",
+                "size": "L"
+            },
+            {
+                "product_name": "Minifalcon",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "PL Runaway",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "color": "TopDye",
+                "size": "M",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "PL Louis",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "color": "Blk",
+                "size": "L",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "F1",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "TopBlk",
+                "size": "S"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "M"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Mid",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "L"
+            },
+            {
+                "product_name": "LC Champion",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "DeepSea",
+                "size": "L",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "LC Champion",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "color": "TopDye",
+                "size": "L",
+                "category": "FG-LC"
+            },
+            {
+                "product_name": "LC Champion",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0,
+                "category": "FG-LC",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "RdMask-Captain-Blk",
+                "qty": 21.0,
+                "unit_price": 55.0,
+                "amount": 1155.0
+            },
+            {
+                "product_name": "RdMask-Captain-Nay",
+                "qty": 22.0,
+                "unit_price": 55.0,
+                "amount": 1210.0
+            },
+            {
+                "product_name": "RD-AC-Retailbag",
+                "qty": 3.0,
+                "unit_price": 100.0,
+                "amount": 300.0
+            },
+            {
+                "product_name": "ค่าจัดส่งฟรี-SCG",
+                "qty": 1.0,
+                "unit_price": 0.0,
+                "amount": 0.0
+            }
+        ]
+    },
+    {
+        "customer_name": "B3-RM-R-เอก  บางปู",
+        "address": "ร้าน rudedog บางปูเซ็นเตอร์ เลขที่ 789 ล็อค A5 อาคารบางปูเซ็นเตอร์(ตรงข้ามตลาดสดนิคมบางปู) ตำบลแพรกษา อำเภอเมืองสมุทรปราการ จังหวัดสมุทรปราการ 10270",
+        "age": "",
+        "amount": 580.0,
+        "total_qty": 2.0,
+        "sale_date": "2020-07-22 04:42:55",
+        "sale_channel": "walk-in",
+        "dealer_name": "RDBOX",
+        "items": [
+            {
+                "product_name": "Minifalcon",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "Blu",
+                "size": "L"
+            },
+            {
+                "product_name": "Minifalcon",
+                "qty": 1.0,
+                "unit_price": 300.0,
+                "amount": 300.0,
+                "category": "FG-PL",
+                "color": "Blu",
+                "size": "XL"
+            },
+            {
+                "product_name": "ค่าจัดส่งฟรี-SCG",
+                "qty": 1.0,
+                "unit_price": 0.0,
+                "amount": 0.0
+            }
+        ]
+    },
+    {
+        "customer_name": "C1-R-ยงยศ  ชลบุรี (ห้างเฉลิมชัย)",
+        "address": "ห้างเฉลิมไทย ชลบุรี ชั้น3 ห้อง C10 709 ถ.สุขุมวิท ตำบลมะขามหย่ง อำเภอเมืองชลบุรี จังหวัดชลบุรี 20000",
+        "age": "",
+        "amount": 16980.0,
+        "total_qty": 94.0,
+        "sale_date": "2020-07-22 04:26:26",
+        "sale_channel": "walk-in",
+        "dealer_name": "RDBOX",
+        "items": [
+            {
+                "product_name": "Pause-DarkGrn-XL",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0
+            },
+            {
+                "product_name": "Downhill",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "L"
+            },
+            {
+                "product_name": "Downhill",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "M"
+            },
+            {
+                "product_name": "Downhill",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "Downhill-Nay-XL",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "XL"
+            },
+            {
+                "product_name": "Downhill",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "M"
+            },
+            {
+                "product_name": "GrooveFlag",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "M"
+            },
+            {
+                "product_name": "GrooveFlag",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "GrooveFlag",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "SoeGrn",
+                "size": "M"
+            },
+            {
+                "product_name": "MB-MiniArrow",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "Gry",
+                "size": "L"
+            },
+            {
+                "product_name": "MB-HighAndSeek",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "L"
+            },
+            {
+                "product_name": "MB-MiniArrow",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Gry",
+                "size": "XL"
+            },
+            {
+                "product_name": "MB-HighAndSeek",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "XL"
+            },
+            {
+                "product_name": "MB-MiniArrow",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "M"
+            },
+            {
+                "product_name": "MB-MiniArrow",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "L"
+            },
+            {
+                "product_name": "MB-HighAndSeek",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "XL"
+            },
+            {
+                "product_name": "MB-MiniArrow",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "CamoGry",
+                "size": "M"
+            },
+            {
+                "product_name": "Downhill",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "SoeGrn",
+                "size": "L"
+            },
+            {
+                "product_name": "Downhill",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "DarkGrn",
+                "size": "L"
+            },
+            {
+                "product_name": "Downhill",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "DarkGrn",
+                "size": "M"
+            },
+            {
+                "product_name": "MB-Slash",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "SoeGrn",
+                "size": "L"
+            },
+            {
+                "product_name": "MB-Slash",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "SoeGrn",
+                "size": "M"
+            },
+            {
+                "product_name": "MB-Slash",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "MB-Slash",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "M"
+            },
+            {
+                "product_name": "Rank",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "L"
+            },
+            {
+                "product_name": "Rank",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "M"
+            },
+            {
+                "product_name": "Rank",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "DarkGrn",
+                "size": "M"
+            },
+            {
+                "product_name": "Rank",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "DarkGrn",
+                "size": "L"
+            },
+            {
+                "product_name": "Shield",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "XL"
+            },
+            {
+                "product_name": "Rank",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "DarkGrn",
+                "size": "XL"
+            },
+            {
+                "product_name": "MB-MiniArrow",
+                "qty": 2.0,
+                "unit_price": 200.0,
+                "amount": 400.0,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "XL"
+            },
+            {
+                "product_name": "Downhill",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "SoeGrn",
+                "size": "M"
+            },
+            {
+                "product_name": "Rank",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "M"
+            },
+            {
+                "product_name": "MB-Slash",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "DarkGrn",
+                "size": "L"
+            },
+            {
+                "product_name": "MB-Slash",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "DarkGrn",
+                "size": "M"
+            },
+            {
+                "product_name": "GrooveFlag",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "SoeGrn",
+                "size": "L"
+            },
+            {
+                "product_name": "MB-MiniArrow",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "L"
+            },
+            {
+                "product_name": "MB-MiniArrow",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "M"
+            },
+            {
+                "product_name": "MB-Slash",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "DarkGrn",
+                "size": "XL"
+            },
+            {
+                "product_name": "Rank",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "XL"
+            },
+            {
+                "product_name": "Shield",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "Shield",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "M"
+            },
+            {
+                "product_name": "GrooveFlag",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "M"
+            },
+            {
+                "product_name": "GrooveFlag",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "L"
+            },
+            {
+                "product_name": "Pause-Nay-L",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0
+            },
+            {
+                "product_name": "Pause-DarkGrn-L",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0
+            },
+            {
+                "product_name": "GrooveFlag",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "M"
+            },
+            {
+                "product_name": "Cobra",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "L"
+            },
+            {
+                "product_name": "Cobra",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "M"
+            },
+            {
+                "product_name": "MB-HighAndSeek",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "M"
+            },
+            {
+                "product_name": "Pause-Nay-M",
+                "qty": 3.0,
+                "unit_price": 160.0,
+                "amount": 480.0
+            },
+            {
+                "product_name": "Shield",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "SoeGrn",
+                "size": "M"
+            },
+            {
+                "product_name": "Shield",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "SoeGrn",
+                "size": "M"
+            },
+            {
+                "product_name": "Cobra",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "GryBrn",
+                "size": "L"
+            },
+            {
+                "product_name": "Cobra",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "SoeGrn",
+                "size": "M"
+            },
+            {
+                "product_name": "MB-MiniArrow",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "Gry",
+                "size": "M"
+            },
+            {
+                "product_name": "Pause-DarkGrn-M",
+                "qty": 3.0,
+                "unit_price": 160.0,
+                "amount": 480.0
+            },
+            {
+                "product_name": "Venice-Nay-M",
+                "qty": 1.0,
+                "unit_price": 890.0,
+                "amount": 890.0
+            },
+            {
+                "product_name": "Venice-Grn-M",
+                "qty": 1.0,
+                "unit_price": 890.0,
+                "amount": 890.0
+            },
+            {
+                "product_name": "Pause-Nay-XL",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0
+            },
+            {
+                "product_name": "MB-HighAndSeek",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "M"
+            },
+            {
+                "product_name": "MB-HighAndSeek",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "Cobra",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "M"
+            },
+            {
+                "product_name": "ค่าจัดส่งฟรี-SCG",
+                "qty": 1.0,
+                "unit_price": 0.0,
+                "amount": 0.0
+            }
+        ]
+    },
+    {
+        "customer_name": "(Employee)-Supplier",
+        "address": "False ตำบลบางรักน้อย อำเภอเมืองนนทบุรี จังหวัดนนทบุรี 11000",
+        "age": "",
+        "amount": 880.0,
+        "total_qty": 5.0,
+        "sale_date": "2020-07-22 04:32:43",
+        "sale_channel": "walk-in",
+        "dealer_name": "RDBOX",
+        "items": [
+            {
+                "product_name": "Cobra",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "M"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Mid",
+                "size": "MG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Sha",
+                "size": "MG"
+            },
+            {
+                "product_name": "ค่าจัดส่งฟรี-SCG",
+                "qty": 1.0,
+                "unit_price": 0.0,
+                "amount": 0.0
+            }
+        ]
+    },
+    {
+        "customer_name": "A3-RBM-R-ดร  นครปฐม",
+        "address": "BIG  C  (สาขา อ้อมใหญ่)   เลขที่   17/17   ม.8 ตำบลอ้อมใหญ่ อำเภอสามพราน จังหวัดนครปฐม 73160",
+        "age": "",
+        "amount": 21977.1,
+        "total_qty": 138.0,
+        "sale_date": "2020-07-22 04:12:49",
+        "sale_channel": "walk-in",
+        "dealer_name": "RDBOX",
+        "items": [
+            {
+                "product_name": "Area81",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "Newsuperdog",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "Nay",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Newsuperdog",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "Nay",
+                "size": "S",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Bighead",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "M"
+            },
+            {
+                "product_name": "Bighead",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "TopBlk",
+                "size": "M"
+            },
+            {
+                "product_name": "Bighead",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Pik",
+                "size": "M"
+            },
+            {
+                "product_name": "Newsuperdog",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Pik",
+                "size": "M",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Logo2018",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Red",
+                "size": "M",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Squarerude",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Ocean",
+                "size": "M"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Blk",
+                "size": "M",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Chain",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "M"
+            },
+            {
+                "product_name": "Hanger",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Nay",
+                "size": "M",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Hanger",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Blu",
+                "size": "M",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "GamePlayer",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Nay",
+                "size": "M",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Chain-Ocean-L",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9
+            },
+            {
+                "product_name": "Minisuper",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Yell",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Minisuper",
+                "qty": 2.0,
+                "unit_price": 164.9,
+                "amount": 329.8,
+                "color": "Nay",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Boxing",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "newbig",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Blk",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Hanger",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "TopDye",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Newbox",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Blk",
+                "size": "L",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Indian",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "TopDye",
+                "size": "M"
+            },
+            {
+                "product_name": "Indian",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Nay",
+                "size": "M",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Indian",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "category": "FG-TS",
+                "color": "Pik",
+                "size": "M"
+            },
+            {
+                "product_name": "Indian",
+                "qty": 1.0,
+                "unit_price": 164.9,
+                "amount": 164.9,
+                "color": "Whi",
+                "size": "M",
+                "category": "FG-TS"
+            },
+            {
+                "product_name": "Pause-DarkGrn-L",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0
+            },
+            {
+                "product_name": "Pause-Nay-L",
+                "qty": 2.0,
+                "unit_price": 160.0,
+                "amount": 320.0
+            },
+            {
+                "product_name": "Pause-Nay-XL",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0
+            },
+            {
+                "product_name": "Pause-DarkGrn-XL",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0
+            },
+            {
+                "product_name": "Pause-DarkGrn-M",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0
+            },
+            {
+                "product_name": "Pause-Nay-M",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0
+            },
+            {
+                "product_name": "F1",
+                "qty": 1.0,
+                "unit_price": 300.0,
+                "amount": 300.0,
+                "category": "FG-PL",
+                "color": "Cha",
+                "size": "XL"
+            },
+            {
+                "product_name": "F1",
+                "qty": 1.0,
+                "unit_price": 300.0,
+                "amount": 300.0,
+                "category": "FG-PL",
+                "color": "TopDye",
+                "size": "XL"
+            },
+            {
+                "product_name": "F1",
+                "qty": 1.0,
+                "unit_price": 300.0,
+                "amount": 300.0,
+                "category": "FG-PL",
+                "color": "Blu",
+                "size": "XL"
+            },
+            {
+                "product_name": "PLRomance-PikCha-S",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0
+            },
+            {
+                "product_name": "F1",
+                "qty": 2.0,
+                "unit_price": 280.0,
+                "amount": 560.0,
+                "category": "FG-PL",
+                "color": "Nay",
+                "size": "L"
+            },
+            {
+                "product_name": "F1",
+                "qty": 1.0,
+                "unit_price": 300.0,
+                "amount": 300.0,
+                "category": "FG-PL",
+                "color": "Red",
+                "size": "XL"
+            },
+            {
+                "product_name": "Minifalcon",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "Yell",
+                "size": "MG"
+            },
+            {
+                "product_name": "Minisuper",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "Yell",
+                "size": "SG"
+            },
+            {
+                "product_name": "Hawaiian-Blk-L",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0
+            },
+            {
+                "product_name": "F1",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "Red",
+                "size": "SG"
+            },
+            {
+                "product_name": "F1",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "Whi",
+                "size": "SG"
+            },
+            {
+                "product_name": "F1",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "TopBlk",
+                "size": "SG"
+            },
+            {
+                "product_name": "F1",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "TopDye",
+                "size": "SG"
+            },
+            {
+                "product_name": "F1",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "TopBlk",
+                "size": "MG"
+            },
+            {
+                "product_name": "F1",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "category": "FG-PL",
+                "color": "TopDye",
+                "size": "MG"
+            },
+            {
+                "product_name": "MB-Slash",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "M"
+            },
+            {
+                "product_name": "Shield",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "SoeGrn",
+                "size": "M"
+            },
+            {
+                "product_name": "Shield",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "SoeGrn",
+                "size": "M"
+            },
+            {
+                "product_name": "Rank",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "M"
+            },
+            {
+                "product_name": "Downhill",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "Nay",
+                "size": "M"
+            },
+            {
+                "product_name": "Downhill",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "DarkGrn",
+                "size": "M"
+            },
+            {
+                "product_name": "Downhill",
+                "qty": 1.0,
+                "unit_price": 160.0,
+                "amount": 160.0,
+                "category": "FG-TS",
+                "color": "DarkGrn",
+                "size": "L"
+            },
+            {
+                "product_name": "SD-Gangster",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "XS"
+            },
+            {
+                "product_name": "SD-Gangster",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Yell",
+                "size": "XS"
+            },
+            {
+                "product_name": "SD-Gangster",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Red",
+                "size": "S"
+            },
+            {
+                "product_name": "Primal",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "XS"
+            },
+            {
+                "product_name": "SD Tourismo",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "XS"
+            },
+            {
+                "product_name": "SD Tourismo",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "TopDye",
+                "size": "XS"
+            },
+            {
+                "product_name": "SD Zento",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Red",
+                "size": "XL"
+            },
+            {
+                "product_name": "SD-Splash",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Whi",
+                "size": "XS"
+            },
+            {
+                "product_name": "SD-Splash",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Red",
+                "size": "XS"
+            },
+            {
+                "product_name": "SD-Shibuya",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "XS"
+            },
+            {
+                "product_name": "SD-Shibuya",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "TopBlk",
+                "size": "XS"
+            },
+            {
+                "product_name": "SD-Shibuya",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "TopDye",
+                "size": "XS"
+            },
+            {
+                "product_name": "SD-Shibuya",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Red(Burgundy)",
+                "size": "XS"
+            },
+            {
+                "product_name": "RdMask-RDxCovid-Whi",
+                "qty": 2.0,
+                "unit_price": 55.0,
+                "amount": 110.0
+            },
+            {
+                "product_name": "RdMask-Logo-Whi",
+                "qty": 1.0,
+                "unit_price": 55.0,
+                "amount": 55.0
+            },
+            {
+                "product_name": "RdMask-RDThai-Nay",
+                "qty": 3.0,
+                "unit_price": 55.0,
+                "amount": 165.0
+            },
+            {
+                "product_name": "RdMask-Captain-Blk",
+                "qty": 3.0,
+                "unit_price": 55.0,
+                "amount": 165.0
+            },
+            {
+                "product_name": "RdMask-RDThai-Blk",
+                "qty": 3.0,
+                "unit_price": 55.0,
+                "amount": 165.0
+            },
+            {
+                "product_name": "RdMask-Captain-Nay",
+                "qty": 5.0,
+                "unit_price": 55.0,
+                "amount": 275.0
+            },
+            {
+                "product_name": "Aloha-Gry-M",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0
+            },
+            {
+                "product_name": "Hawaiian-Nay-M",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0
+            },
+            {
+                "product_name": "Hawaiian-Blk-M",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0
+            },
+            {
+                "product_name": "Hawaiian-Nay-XL",
+                "qty": 1.0,
+                "unit_price": 240.0,
+                "amount": 240.0
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "L"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "M"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Ama",
+                "size": "M"
+            },
+            {
+                "product_name": "PL Pixel",
+                "qty": 1.0,
+                "unit_price": 280.0,
+                "amount": 280.0,
+                "color": "Whi",
+                "size": "SG",
+                "category": "FG-PL"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Ama",
+                "size": "SG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 2.0,
+                "unit_price": 180.0,
+                "amount": 360.0,
+                "category": "FG-TV",
+                "color": "Gnt",
+                "size": "SG"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Ind",
+                "size": "M"
+            },
+            {
+                "product_name": "V-Expert",
+                "qty": 1.0,
+                "unit_price": 180.0,
+                "amount": 180.0,
+                "category": "FG-TV",
+                "color": "Mid",
+                "size": "SG"
+            },
+            {
+                "product_name": "SD-Splash",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "S"
+            },
+            {
+                "product_name": "SD Zento",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "S"
+            },
+            {
+                "product_name": "SD Tourismo",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "Blk",
+                "size": "S"
+            },
+            {
+                "product_name": "SD-Shibuya",
+                "qty": 1.0,
+                "unit_price": 200.0,
+                "amount": 200.0,
+                "category": "FG-TS",
+                "color": "TopBlk",
+                "size": "S"
+            },
+            {
+                "product_name": "RD-AC-Retailbag",
+                "qty": 30.0,
+                "unit_price": 100.0,
+                "amount": 3000.0
+            },
+            {
+                "product_name": "ค่าจัดส่งฟรี-SCG",
+                "qty": 1.0,
+                "unit_price": 0.0,
+                "amount": 0.0
+            }
+        ]
+    }
+]

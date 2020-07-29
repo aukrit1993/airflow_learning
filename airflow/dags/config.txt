@@ -1,0 +1,12 @@
+[config_postgres]
+db_host = localhost
+db_user = odoo
+db_pass = odoo
+db_port = 5443
+db_name = db_rdb
+
+[config_odoo]
+username = nong.aukrit@rdbox.co
+password = rd@1234
+url = http://localhost:8069
+db_name = 22_07_2020
