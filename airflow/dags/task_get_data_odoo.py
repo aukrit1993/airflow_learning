@@ -2,18 +2,14 @@ from datetime import timedelta, datetime
 import requests
 import json
 import psycopg2
-import pandas as pd
 from sqlalchemy import create_engine
 import configparser
 import os
+import numpy as np
 
 from airflow import DAG
 from airflow.operators.bash_operator import BashOperator
 from airflow.operators.python_operator import PythonOperator
-from airflow.contrib.hooks.mongo_hook import MongoHook
-
-authentication_url = 'http://localhost:8069/web/session/authenticate'
-url = 'http://localhost:8069/get/order_item'
 
 config = configparser.ConfigParser()
 main_path = os.path.dirname(__file__)
@@ -28,9 +24,6 @@ username = config.get('config_odoo', 'username')
 password = config.get('config_odoo', 'password')
 url = config.get('config_odoo', 'url')
 odoo_db_name = config.get('config_odoo', 'db_name')
-
-# authentication_url = 'http://localhost:8069/web/session/authenticate'
-# url = 'http://localhost:8069/get/order_item'
 
 default_args = {
     "owner": "airflow",
@@ -86,14 +79,21 @@ def get_data_odoo(**kwargs):
     main_path = kwargs.get('main_path')
     session_id = authenticate_odoo(url, username, password, db_name)
     data = get_data(url, session_id)
-    data = list(map(remove_items, data))
+    
     if data:
-        result = pd.DataFrame(data)
-        result.to_csv('{}/sale_order.csv'.format(main_path), index=False)
-
+        order_items = list(map(get_order_item, data))
+        sale_order = list(map(remove_items, data))
+        with open('{}/order_items.json'.format(main_path), 'w') as outfile:
+            json.dump(order_items, outfile)
+        with open('{}/sale_order.json'.format(main_path), 'w') as outfile:
+            json.dump(sale_order, outfile)
+        
 def remove_items(data):
     del data['items']
     return data
+
+def get_order_item(data):
+    return list(data['items'])
     
 def save_data_to_postgres(**kwargs):
     db_host = kwargs.get('db_host')
@@ -104,16 +104,50 @@ def save_data_to_postgres(**kwargs):
     main_path = kwargs.get('main_path')
     engin_path = 'postgresql://{}:{}@{}:{}/{}'.format(db_user, db_pass, db_host, db_port, db_name)
     engine = create_engine(engin_path)
-    read_data = pd.read_csv('{}/sale_order.csv'.format(main_path), chunksize=1000)
-    for df in read_data:
-        test = df.to_sql(
-            'sale_order', 
-            engine,
-            index=False,
-            if_exists='append'
-        )
-        print(test)
-    
+    with open('{}/sale_order.json'.format(main_path)) as json_file:
+        sale_order = json.load(json_file)
+    with open('{}/order_items.json'.format(main_path)) as json_file:
+        order_items = json.load(json_file)
+    order_items = json.loads(json.dumps(order_items).encode('utf-8'))
+    sale_orders = json.loads(json.dumps(sale_order).encode('utf-8'))
+    index = 0
+    connection = engine.connect()
+    for data in sale_orders:
+        insert_order_psql = """INSERT INTO sale_order(customer_name, amount, total_qty, sale_date, sale_channel, dealer_name, address)
+	                        VALUES ('{}', {}, {}, '{}', '{}', '{}', '{}');""".format(
+                                data.get('customer_name' or None),
+                                data.get('amount' or None),
+                                data.get('total_qty' or None),
+                                data.get('sale_date' or None),
+                                data.get('sale_channel' or None),
+                                data.get('dealer_name' or None),
+                                data.get('address' or None)
+                                )
+        connection.execute(insert_order_psql)
+        get_id_psql = """select id from sale_order order by id DESC limit 1;"""
+        order_id = connection.execute(get_id_psql)
+        order_id = list(order_id)
+        order_id = order_id[0][0]
+        item_index = 0
+        for item in range(0, len(order_items[index]) - 1):
+            order_items[index][item].update({
+                'order_id': int(order_id)
+            })
+            item_dic = order_items[index][item]
+            insert_item_psql = """INSERT INTO order_item (product_name,qty,unit_price,amount,category,color,size,order_id)
+                        VALUES('{}', {}, {}, {}, '{}', '{}', '{}', {}) """.format(
+                                item_dic.get('product_name' or None),
+                                item_dic.get('qty' or None),
+                                item_dic.get('unit_price' or None),
+                                item_dic.get('amount' or None),
+                                item_dic.get('category' or None),
+                                item_dic.get('color' or None),
+                                item_dic.get('size' or None),
+                                item_dic.get('order_id' or None)
+                                )
+            connection.execute(insert_item_psql)
+        index += 1
+        
 t1_get_data = PythonOperator(
     task_id="get_data_odoo", 
     python_callable=get_data_odoo,
@@ -142,28 +176,3 @@ t2_save_data = PythonOperator(
 )
 
 t1_get_data >> t2_save_data
-
-
-# SELECT
-#   $__timeGroupAlias(sol.create_date,$__interval),
-#   sum(sol.product_uom) AS "product_uom",
-#   pt.name as "product_name"
-# FROM sale_order_line as sol
-# left join product_product as pp on sol.product_id = pp.id
-# left join product_template as pt on pp.product_tmpl_id = pt.id
-# WHERE
-#   $__timeFilter(sol.create_date)
-# GROUP BY 1, pt.name
-# ORDER BY 1
-
-# SELECT
-#   $__timeGroupAlias(sol.create_date::date,$__interval),
-#   sum(sol.product_uom) AS "product_uom",
-#   pt.name as "product_name"
-# FROM sale_order_line as sol
-# left join product_product as pp on sol.product_id = pp.id
-# left join product_template as pt on pp.product_tmpl_id = pt.id
-# WHERE
-#   $__timeFilter(sol.create_date::date) and pt.type = 'product'
-# GROUP BY 1, pt.name
-# ORDER BY product_uom desc
