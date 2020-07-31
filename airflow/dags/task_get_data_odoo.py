@@ -5,7 +5,7 @@ import psycopg2
 from sqlalchemy import create_engine
 import configparser
 import os
-import numpy as np
+import re
 
 from airflow import DAG
 from airflow.operators.bash_operator import BashOperator
@@ -64,7 +64,7 @@ def get_data(url, session_id):
         }
     params = {
         "params":{
-            "date": "2020-07-21"
+            "date": "2020-01-01"
         }
     }
     respones = requests.post(url, headers=headers, data=json.dumps(params))
@@ -113,15 +113,16 @@ def save_data_to_postgres(**kwargs):
     index = 0
     connection = engine.connect()
     for data in sale_orders:
-        insert_order_psql = """INSERT INTO sale_order(customer_name, amount, total_qty, sale_date, sale_channel, dealer_name, address)
-	                        VALUES ('{}', {}, {}, '{}', '{}', '{}', '{}');""".format(
-                                data.get('customer_name' or None),
-                                data.get('amount' or None),
-                                data.get('total_qty' or None),
-                                data.get('sale_date' or None),
-                                data.get('sale_channel' or None),
-                                data.get('dealer_name' or None),
-                                data.get('address' or None)
+        insert_order_psql = """INSERT INTO sale_order(customer_name, address, amount, total_qty, 
+                                                        sale_date, sale_channel, dealer_name)
+	                        VALUES ('{}', '{}', {}, {}, '{}', '{}', '{}');""".format(
+                                data.get('customer_name', ''),
+                                data.get('address', ''),
+                                data.get('amount', ''),
+                                data.get('total_qty', ''),
+                                data.get('sale_date', ''),
+                                data.get('sale_channel', ''),
+                                data.get('dealer_name', '')
                                 )
         connection.execute(insert_order_psql)
         get_id_psql = """select id from sale_order order by id DESC limit 1;"""
@@ -134,16 +135,19 @@ def save_data_to_postgres(**kwargs):
                 'order_id': int(order_id)
             })
             item_dic = order_items[index][item]
-            insert_item_psql = """INSERT INTO order_item (product_name,qty,unit_price,amount,category,color,size,order_id)
-                        VALUES('{}', {}, {}, {}, '{}', '{}', '{}', {}) """.format(
-                                item_dic.get('product_name' or None),
-                                item_dic.get('qty' or None),
-                                item_dic.get('unit_price' or None),
-                                item_dic.get('amount' or None),
-                                item_dic.get('category' or None),
-                                item_dic.get('color' or None),
-                                item_dic.get('size' or None),
-                                item_dic.get('order_id' or None)
+            insert_item_psql = """INSERT INTO order_item (product_name, qty, unit_price, amount, 
+                                                            category, color, size, order_id, brand, shirt_type)
+                        VALUES('{}', {}, {}, {}, '{}', '{}', '{}', {}, '{}', '{}') """.format(
+                                re.sub(r'\-.*', "", item_dic.get('product_name', '')),
+                                item_dic.get('qty', ''),
+                                item_dic.get('unit_price', ''),
+                                item_dic.get('amount', ''),
+                                item_dic.get('category', ''),
+                                item_dic.get('color', ''),
+                                item_dic.get('size', ''),
+                                item_dic.get('order_id', ''),
+                                item_dic.get('brand', ''),
+                                item_dic.get('shirt_type', '')
                                 )
             connection.execute(insert_item_psql)
         index += 1
