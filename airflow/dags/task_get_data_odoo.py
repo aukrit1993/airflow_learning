@@ -1,4 +1,5 @@
 from datetime import timedelta, datetime
+import time
 import requests
 import json
 import psycopg2
@@ -66,8 +67,8 @@ def get_data(url, session_id):
         }
     params = {
         "params":{
-            "date_start": "2019-06-01 00:00:00",
-		    "date_end": "2019-07-31 23:59:59"
+            "date_start": "2020-05-01 00:00:00",
+		    "date_end": "2020-06-30 23:59:59"
         }
     }
     respones = requests.post(url, headers=headers, data=json.dumps(params))
@@ -79,17 +80,17 @@ def get_data_odoo(**kwargs):
     password = kwargs.get('password')
     url = kwargs.get('url')
     db_name = kwargs.get('db_name')
-    main_path = kwargs.get('main_path')
     session_id = authenticate_odoo(url, username, password, db_name)
     data = get_data(url, session_id)
     
     if data:
         order_items = list(map(get_order_item, data))
+        print(order_items)
         sale_order = list(map(remove_items, data))
-        with open('order_items.json', 'w') as outfile:
-            json.dump(order_items, outfile)
-        with open('sale_order.json', 'w') as outfile:
-            json.dump(sale_order, outfile)
+        with open('order_items.json', 'w', encoding='utf-8') as outfile:
+            json.dump(order_items, outfile, ensure_ascii=False)
+        with open('sale_order.json', 'w', encoding='utf-8') as outfile:
+            json.dump(sale_order, outfile, ensure_ascii=False)
         
 def remove_items(data):
     del data['items']
@@ -97,14 +98,13 @@ def remove_items(data):
 
 def get_order_item(data):
     return list(data['items'])
-    
+
 def save_data_to_postgres(**kwargs):
     db_host = kwargs.get('db_host')
     db_user = kwargs.get('db_user')
     db_pass = kwargs.get('db_pass')
     db_port = kwargs.get('db_port')
     db_name = kwargs.get('db_name')
-    main_path = kwargs.get('main_path')
     engin_path = 'postgresql://{}:{}@{}:{}/{}'.format(db_user, db_pass, db_host, db_port, db_name)
     engine = create_engine(engin_path)
     with open('sale_order.json') as json_file:
@@ -196,5 +196,10 @@ t2_save_data = PythonOperator(
     dag=dag,
 )
 
-t1_get_data >> t2_save_data
-# t2_save_data
+delay_python_task = PythonOperator(
+    task_id="delay_python_task",
+    dag=dag,
+    python_callable=lambda: time.sleep(300)
+    )
+
+t1_get_data >> delay_python_task >> t2_save_data
