@@ -41,7 +41,7 @@ dag = DAG(
     "get_data_from_odoo",
     default_args=default_args,
     description="Get data from postgres",
-    schedule_interval=None,
+    schedule_interval='0 0 * * *',
     catchup=False,
 )
 
@@ -60,6 +60,9 @@ def authenticate_odoo(url, username, password, db_name):
     return session_id
     
 def get_data(url, session_id):
+    today = datetime.today()
+    yesterday = today - timedelta(days=1)
+    yesterday = yesterday.strftime('%Y-%m-%d')
     url = url + '/get/order_item'
     headers = {
         'Content-Type': 'application/json',
@@ -67,8 +70,8 @@ def get_data(url, session_id):
         }
     params = {
         "params":{
-            "date_start": "2020-05-01 00:00:00",
-		    "date_end": "2020-06-30 23:59:59"
+            "date_start": "{} 00:00:00".format(yesterday),
+		    "date_end": "{} 23:59:59".format(yesterday)
         }
     }
     respones = requests.post(url, headers=headers, data=json.dumps(params))
@@ -168,6 +171,15 @@ def save_data_to_postgres(**kwargs):
                                         )
                     connection.execute(insert_item_psql)
             index += 1
+            
+def remove_file():
+    try:
+        os.remove('sale_order.json')
+        os.remove('order_items.json')
+        print('Removed!!!!')
+    except:
+        print('Do not have file!!!')
+        pass
         
 t1_get_data = PythonOperator(
     task_id="get_data_odoo", 
@@ -199,7 +211,13 @@ t2_save_data = PythonOperator(
 delay_python_task = PythonOperator(
     task_id="delay_python_task",
     dag=dag,
-    python_callable=lambda: time.sleep(300)
+    python_callable=lambda: time.sleep(60)
     )
 
-t1_get_data >> delay_python_task >> t2_save_data
+remove_file_task = PythonOperator(
+    task_id="remove_file_task",
+    dag=dag,
+    python_callable=remove_file
+    )
+
+remove_file_task >> t1_get_data >> t2_save_data
