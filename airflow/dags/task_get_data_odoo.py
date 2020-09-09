@@ -41,7 +41,7 @@ dag = DAG(
     "get_data_from_odoo",
     default_args=default_args,
     description="Get data from postgres",
-    schedule_interval='0 0 * * *',
+    schedule_interval='0 1 * * *',
     catchup=False,
 )
 
@@ -157,7 +157,7 @@ def save_data_to_postgres(**kwargs):
                     insert_item_psql = """INSERT INTO order_item (product_name, qty, unit_price, amount, 
                                                                     category, color, size, order_id, brand, shirt_type, create_date)
                                 VALUES('{}', {}, {}, {}, '{}', '{}', '{}', {}, '{}', '{}', '{}') """.format(
-                                        re.sub(r'\-.*', "", item_dic.get('product_name', '')),
+                                        item_dic.get('product_name', ''),
                                         item_dic.get('qty', ''),
                                         item_dic.get('unit_price', ''),
                                         item_dic.get('amount', ''),
@@ -211,7 +211,7 @@ t2_save_data = PythonOperator(
 delay_python_task = PythonOperator(
     task_id="delay_python_task",
     dag=dag,
-    python_callable=lambda: time.sleep(60)
+    python_callable=lambda: time.sleep(300)
     )
 
 remove_file_task = PythonOperator(
@@ -220,4 +220,4 @@ remove_file_task = PythonOperator(
     python_callable=remove_file
     )
 
-remove_file_task >> t1_get_data >> t2_save_data
+remove_file_task >> t1_get_data >> delay_python_task >> t2_save_data
