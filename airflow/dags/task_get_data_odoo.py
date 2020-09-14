@@ -41,7 +41,8 @@ dag = DAG(
     "get_data_from_odoo",
     default_args=default_args,
     description="Get data from postgres",
-    schedule_interval='0 1 * * *',
+    start_date=datetime(2018, 1, 1),
+    schedule_interval='0 3 * * *',
     catchup=False,
 )
 
@@ -76,16 +77,22 @@ def get_data(url, session_id):
     }
     respones = requests.post(url, headers=headers, data=json.dumps(params))
     data = json.loads(respones.text)
-    return data['result']
+    try:
+        if data['result']:
+            return data['result']
+    except:
+        return False
     
 def get_data_odoo(**kwargs):
+    today = datetime.today()
+    yesterday = today - timedelta(days=1)
+    yesterday = yesterday.strftime('%Y-%m-%d')
     username = kwargs.get('username')
     password = kwargs.get('password')
     url = kwargs.get('url')
     db_name = kwargs.get('db_name')
     session_id = authenticate_odoo(url, username, password, db_name)
     data = get_data(url, session_id)
-    
     if data:
         order_items = list(map(get_order_item, data))
         print(order_items)
@@ -94,6 +101,9 @@ def get_data_odoo(**kwargs):
             json.dump(order_items, outfile, ensure_ascii=False)
         with open('sale_order.json', 'w', encoding='utf-8') as outfile:
             json.dump(sale_order, outfile, ensure_ascii=False)
+        print('Finish create json file')
+    else:
+        print('No Data for {}'.format(yesterday))
         
 def remove_items(data):
     del data['items']
@@ -110,67 +120,71 @@ def save_data_to_postgres(**kwargs):
     db_name = kwargs.get('db_name')
     engin_path = 'postgresql://{}:{}@{}:{}/{}'.format(db_user, db_pass, db_host, db_port, db_name)
     engine = create_engine(engin_path)
-    with open('sale_order.json') as json_file:
-        sale_order = json.load(json_file)
-    with open('order_items.json') as json_file:
-        order_items = json.load(json_file)
-    order_items = json.loads(json.dumps(order_items).encode('utf-8'))
-    sale_orders = json.loads(json.dumps(sale_order).encode('utf-8'))
-    index = 0
-    connection = engine.connect()
-    for data in sale_orders:
-        if data.get('province'):
-            lat_long = check_lat_long.get_lat_long(data.get('province'))
-        insert_order_psql = """INSERT INTO sale_order(customer_name, address, tambon, amphur, province, zip, status,
-                                                      amount, total_qty, sale_date, sale_channel, is_booking, latitude, longitude, create_date)
-	                        VALUES ('{}', '{}', '{}', '{}', '{}', '{}', '{}', {}, {}, '{}', '{}', {}, '{}', '{}', '{}');""".format(
-                                data.get('customer_name', ''),
-                                data.get('address', ''),
-                                data.get('tambon', ''),
-                                data.get('amphur', ''),
-                                data.get('province', ''),
-                                data.get('zip', ''),
-                                data.get('status', ''),
-                                data.get('amount', ''),
-                                data.get('total_qty', ''),
-                                data.get('sale_date', ''),
-                                data.get('sale_channel', ''),
-                                data.get('is_booking'),
-                                str(lat_long[0]),
-                                str(lat_long[1]),
-                                datetime.now().strftime("%Y-%m-%d, %H:%M:%S")
-                                )
-        connection.execute(insert_order_psql)
-        get_id_psql = """select id, sale_date from sale_order order by id DESC limit 1;"""
-        sale_order = connection.execute(get_id_psql)
-        sale_order = list(sale_order)
-        if sale_order:
-            sale_order_id = sale_order[0][0]
-            sale_order_date = sale_order[0][1].strftime("%Y-%m-%d, %H:%M:%S")
-            for item in range(0, len(order_items[index]) - 1):
-                if order_items[index][item]:
-                    order_items[index][item].update({
-                        'order_id': int(sale_order_id),
-                        'sale_date': sale_order_date
-                    })
-                    item_dic = order_items[index][item]
-                    insert_item_psql = """INSERT INTO order_item (product_name, qty, unit_price, amount, 
-                                                                    category, color, size, order_id, brand, shirt_type, create_date)
-                                VALUES('{}', {}, {}, {}, '{}', '{}', '{}', {}, '{}', '{}', '{}') """.format(
-                                        item_dic.get('product_name', ''),
-                                        item_dic.get('qty', ''),
-                                        item_dic.get('unit_price', ''),
-                                        item_dic.get('amount', ''),
-                                        item_dic.get('category', ''),
-                                        item_dic.get('color', ''),
-                                        item_dic.get('size', ''),
-                                        item_dic.get('order_id', ''),
-                                        item_dic.get('brand', ''),
-                                        item_dic.get('shirt_type', ''),
-                                        datetime.now().strftime("%Y-%m-%d, %H:%M:%S")
-                                        )
-                    connection.execute(insert_item_psql)
-            index += 1
+    try:
+        with open('sale_order.json') as json_file:
+            sale_order = json.load(json_file)
+        with open('order_items.json') as json_file:
+            order_items = json.load(json_file)
+        order_items = json.loads(json.dumps(order_items).encode('utf-8'))
+        sale_orders = json.loads(json.dumps(sale_order).encode('utf-8'))
+        index = 0
+        connection = engine.connect()
+        for data in sale_orders:
+            if data.get('province'):
+                lat_long = check_lat_long.get_lat_long(data.get('province'))
+            insert_order_psql = """INSERT INTO sale_order(customer_name, address, tambon, amphur, province, zip, status,
+                                                        amount, total_qty, sale_date, sale_channel, is_booking, latitude, longitude, create_date)
+                                VALUES ('{}', '{}', '{}', '{}', '{}', '{}', '{}', {}, {}, '{}', '{}', {}, '{}', '{}', '{}');""".format(
+                                    data.get('customer_name', ''),
+                                    data.get('address', ''),
+                                    data.get('tambon', ''),
+                                    data.get('amphur', ''),
+                                    data.get('province', ''),
+                                    data.get('zip', ''),
+                                    data.get('status', ''),
+                                    data.get('amount', ''),
+                                    data.get('total_qty', ''),
+                                    data.get('sale_date', ''),
+                                    data.get('sale_channel', ''),
+                                    data.get('is_booking'),
+                                    str(lat_long[0]),
+                                    str(lat_long[1]),
+                                    datetime.now().strftime("%Y-%m-%d, %H:%M:%S")
+                                    )
+            connection.execute(insert_order_psql)
+            get_id_psql = """select id, sale_date from sale_order order by id DESC limit 1;"""
+            sale_order = connection.execute(get_id_psql)
+            sale_order = list(sale_order)
+            if sale_order:
+                sale_order_id = sale_order[0][0]
+                sale_order_date = sale_order[0][1].strftime("%Y-%m-%d, %H:%M:%S")
+                for item in range(0, len(order_items[index]) - 1):
+                    if order_items[index][item]:
+                        order_items[index][item].update({
+                            'order_id': int(sale_order_id),
+                            'sale_date': sale_order_date
+                        })
+                        item_dic = order_items[index][item]
+                        insert_item_psql = """INSERT INTO order_item (product_name, qty, unit_price, amount, 
+                                                                        category, color, size, order_id, brand, shirt_type, create_date)
+                                    VALUES('{}', {}, {}, {}, '{}', '{}', '{}', {}, '{}', '{}', '{}') """.format(
+                                            item_dic.get('product_name', ''),
+                                            item_dic.get('qty', ''),
+                                            item_dic.get('unit_price', ''),
+                                            item_dic.get('amount', ''),
+                                            item_dic.get('category', ''),
+                                            item_dic.get('color', ''),
+                                            item_dic.get('size', ''),
+                                            item_dic.get('order_id', ''),
+                                            item_dic.get('brand', ''),
+                                            item_dic.get('shirt_type', ''),
+                                            datetime.now().strftime("%Y-%m-%d, %H:%M:%S")
+                                            )
+                        connection.execute(insert_item_psql)
+                index += 1
+        print('Finish save data to DW')
+    except:
+        print('No data to save')
             
 def remove_file():
     try:
@@ -211,7 +225,7 @@ t2_save_data = PythonOperator(
 delay_python_task = PythonOperator(
     task_id="delay_python_task",
     dag=dag,
-    python_callable=lambda: time.sleep(300)
+    python_callable=lambda: time.sleep(600)
     )
 
 remove_file_task = PythonOperator(
