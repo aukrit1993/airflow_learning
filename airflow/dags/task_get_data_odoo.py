@@ -11,6 +11,7 @@ import re
 import check_lat_long
 
 from airflow import DAG
+from airflow import AirflowException
 from airflow.operators.bash_operator import BashOperator
 from airflow.operators.python_operator import PythonOperator
 
@@ -95,12 +96,12 @@ def get_data_odoo(**kwargs):
     data = get_data(url, session_id)
     if data:
         order_items = list(map(get_order_item, data))
-        print(order_items)
         sale_order = list(map(remove_items, data))
-        with open('order_items.json', 'w', encoding='utf-8') as outfile:
-            json.dump(order_items, outfile, ensure_ascii=False)
         with open('sale_order.json', 'w', encoding='utf-8') as outfile:
             json.dump(sale_order, outfile, ensure_ascii=False)
+        with open('order_items.json', 'w', encoding='utf-8') as outfile:
+            json.dump(order_items, outfile, ensure_ascii=False)
+        print('Path file: ', os.path.isfile('./sale_order.json'))
         print('Finish create json file')
     else:
         print('No Data for {}'.format(yesterday))
@@ -120,11 +121,11 @@ def save_data_to_postgres(**kwargs):
     db_name = kwargs.get('db_name')
     engin_path = 'postgresql://{}:{}@{}:{}/{}'.format(db_user, db_pass, db_host, db_port, db_name)
     engine = create_engine(engin_path)
-    try:
-        with open('sale_order.json') as json_file:
-            sale_order = json.load(json_file)
-        with open('order_items.json') as json_file:
-            order_items = json.load(json_file)
+    if os.path.isfile('./sale_order.json') and os.path.isfile('./order_items.json'):
+        with open('./sale_order.json', 'r') as sale_file:
+            sale_order = json.load(sale_file)
+        with open('./order_items.json', 'r') as item_file:
+            order_items = json.load(item_file)
         order_items = json.loads(json.dumps(order_items).encode('utf-8'))
         sale_orders = json.loads(json.dumps(sale_order).encode('utf-8'))
         index = 0
@@ -183,8 +184,8 @@ def save_data_to_postgres(**kwargs):
                         connection.execute(insert_item_psql)
                 index += 1
         print('Finish save data to DW')
-    except:
-        print('No data to save')
+    else:
+        ValueError('No data to save')
             
 def remove_file():
     try:
@@ -222,11 +223,11 @@ t2_save_data = PythonOperator(
     dag=dag,
 )
 
-delay_python_task = PythonOperator(
-    task_id="delay_python_task",
-    dag=dag,
-    python_callable=lambda: time.sleep(600)
-    )
+# delay_python_task = PythonOperator(
+#     task_id="delay_python_task",
+#     dag=dag,
+#     python_callable=lambda: time.sleep(300)
+#     )
 
 remove_file_task = PythonOperator(
     task_id="remove_file_task",
@@ -234,4 +235,4 @@ remove_file_task = PythonOperator(
     python_callable=remove_file
     )
 
-remove_file_task >> t1_get_data >> delay_python_task >> t2_save_data
+remove_file_task >> t1_get_data >> t2_save_data
