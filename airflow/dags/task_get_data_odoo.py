@@ -43,7 +43,7 @@ dag = DAG(
     default_args=default_args,
     description="Get data from postgres",
     start_date=datetime(2018, 1, 1),
-    schedule_interval='0 3 * * *',
+    schedule_interval='0 0 * * *',
     catchup=False,
 )
 
