@@ -90,21 +90,21 @@ def get_data_odoo(**kwargs):
     yesterday = yesterday.strftime('%Y-%m-%d')
     username = kwargs.get('username')
     password = kwargs.get('password')
+    odoo_db_name = kwargs.get('odoo_db_name')
     url = kwargs.get('url')
+    db_host = kwargs.get('db_host')
+    db_user = kwargs.get('db_user')
+    db_pass = kwargs.get('db_pass')
+    db_port = kwargs.get('db_port')
     db_name = kwargs.get('db_name')
-    session_id = authenticate_odoo(url, username, password, db_name)
+    session_id = authenticate_odoo(url, username, password, odoo_db_name)
     data = get_data(url, session_id)
     if data:
         order_items = list(map(get_order_item, data))
         sale_order = list(map(remove_items, data))
-        with open('sale_order.json', 'w', encoding='utf-8') as outfile:
-            json.dump(sale_order, outfile, ensure_ascii=False)
-        with open('order_items.json', 'w', encoding='utf-8') as outfile:
-            json.dump(order_items, outfile, ensure_ascii=False)
-        print('Path file: ', os.path.isfile('./sale_order.json'))
-        print('Finish create json file')
+        save_data_to_postgres(db_host, db_user, db_pass, db_port, db_name, order_items, sale_order)
     else:
-        print('No Data for {}'.format(yesterday))
+        raise ValueError('No Data for {}'.format(yesterday))
         
 def remove_items(data):
     del data['items']
@@ -113,24 +113,13 @@ def remove_items(data):
 def get_order_item(data):
     return list(data['items'])
 
-def save_data_to_postgres(**kwargs):
-    db_host = kwargs.get('db_host')
-    db_user = kwargs.get('db_user')
-    db_pass = kwargs.get('db_pass')
-    db_port = kwargs.get('db_port')
-    db_name = kwargs.get('db_name')
+def save_data_to_postgres(db_host, db_user, db_pass, db_port, db_name, order_items, sale_order):
     engin_path = 'postgresql://{}:{}@{}:{}/{}'.format(db_user, db_pass, db_host, db_port, db_name)
     engine = create_engine(engin_path)
-    if os.path.isfile('./sale_order.json') and os.path.isfile('./order_items.json'):
-        with open('./sale_order.json', 'r') as sale_file:
-            sale_order = json.load(sale_file)
-        with open('./order_items.json', 'r') as item_file:
-            order_items = json.load(item_file)
-        order_items = json.loads(json.dumps(order_items).encode('utf-8'))
-        sale_orders = json.loads(json.dumps(sale_order).encode('utf-8'))
+    if order_items and sale_order:
         index = 0
         connection = engine.connect()
-        for data in sale_orders:
+        for data in sale_order:
             if data.get('province'):
                 lat_long = check_lat_long.get_lat_long(data.get('province'))
             insert_order_psql = """INSERT INTO sale_order(customer_name, address, tambon, amphur, province, zip, status,
@@ -185,16 +174,8 @@ def save_data_to_postgres(**kwargs):
                 index += 1
         print('Finish save data to DW')
     else:
-        ValueError('No data to save')
-            
-def remove_file():
-    try:
-        os.remove('sale_order.json')
-        os.remove('order_items.json')
-        print('Removed!!!!')
-    except:
-        print('Do not have file!!!')
-        pass
+        raise ValueError('No data to save')
+
         
 t1_get_data = PythonOperator(
     task_id="get_data_odoo", 
@@ -203,36 +184,15 @@ t1_get_data = PythonOperator(
         'username': username,
         'password': password, 
         'url': url, 
-        'db_name': odoo_db_name,
+        'odoo_db_name': odoo_db_name,
         'main_path': main_path,
-    },
-    dag=dag,
-)
-
-t2_save_data = PythonOperator(
-    task_id="save_data_to_postgres", 
-    python_callable=save_data_to_postgres,
-    op_kwargs={
         'db_host': db_host,
         'db_user': db_user, 
         'db_pass': db_pass, 
         'db_port': db_port, 
         'db_name': db_name, 
-        'main_path': main_path
-        },
+    },
     dag=dag,
 )
 
-# delay_python_task = PythonOperator(
-#     task_id="delay_python_task",
-#     dag=dag,
-#     python_callable=lambda: time.sleep(300)
-#     )
-
-remove_file_task = PythonOperator(
-    task_id="remove_file_task",
-    dag=dag,
-    python_callable=remove_file
-    )
-
-remove_file_task >> t1_get_data >> t2_save_data
+t1_get_data
